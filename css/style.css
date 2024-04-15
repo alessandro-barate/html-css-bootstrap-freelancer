@@ -2,7 +2,7 @@ header {
     background-color: #2C3E50;
 }
 
-main .container-lg:nth-child(odd) {
+main .container-fluid:nth-child(odd) {
     background-color: #1ABC9C;
 }
 
