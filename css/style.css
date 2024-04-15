@@ -9,3 +9,11 @@ main .container-fluid:nth-child(odd) {
 .row {
     display: block;
 }
+
+.ab-w-90 {
+    width: 90%;
+}
+
+li {
+    list-style-type: none;
+}
