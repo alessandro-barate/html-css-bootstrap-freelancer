@@ -5,3 +5,7 @@ VARIABLES
 header {
     background-color:var(--main-color);
 }
+
+.nav-item .nav-link {
+    color: white;
+}
