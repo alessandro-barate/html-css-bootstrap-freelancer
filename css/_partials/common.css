@@ -13,3 +13,7 @@ header {
 main section:nth-child(odd) {
     background-color: var(--secondary-color);
 }
+
+.ab-bg-yellow .content {
+    background-color: yellow;
+}
