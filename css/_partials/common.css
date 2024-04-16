@@ -9,3 +9,7 @@ header {
 .nav-item .nav-link {
     color: white;
 }
+
+main section:nth-child(odd) {
+    background-color: var(--secondary-color);
+}
