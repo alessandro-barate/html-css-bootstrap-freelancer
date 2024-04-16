@@ -1,20 +1,2 @@
-header, footer {
-    background-color: #2C3E50;
-}
-
-main .container-fluid:nth-child(odd),
-.btn.btn-primary {
-    background-color: #1ABC9C;
-}
-
-.row {
-    display: block;
-}
-
-.ab-w-90 {
-    width: 90%;
-}
-
-li {
-    list-style-type: none;
-}
+@import url(./_partials/variables.css);
+@import url(./_partials/common.css);
