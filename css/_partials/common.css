@@ -10,6 +10,7 @@ header {
     color: white;
 }
 
-main section:nth-child(odd) {
+main section:nth-child(odd),
+#contact .btn {
     background-color: var(--secondary-color);
 }
