@@ -6,6 +6,10 @@ header {
     background-color:var(--main-color);
 }
 
+footer {
+    background-color: var(--main-color-light);
+}
+
 .nav-item .nav-link {
     color: white;
 }
