@@ -18,3 +18,16 @@ main section:nth-child(odd),
 #contact .btn {
     background-color: var(--secondary-color);
 }
+
+input::placeholder {
+    color: red;
+}
+
+.lower-footer {
+    background-color: var(--main-color);
+}
+
+footer a {
+    color: #1ABC9C;
+}
+

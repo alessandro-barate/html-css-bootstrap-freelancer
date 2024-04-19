@@ -9,8 +9,12 @@
     <title>Bootstrap</title>
 </head>
 <body>
+
+    <!-- Header -->
     <header class="py-3 text-white">
         <div class="container">
+
+            <!-- NavBar a scomparsa e dropdown -->
             <nav class="navbar navbar-expand-lg fw-bold text-uppercase" data-bs-theme="dark">
                 <div class="container">
                     <a class="navbar-brand" href="#">start bootstrap</a>
@@ -32,32 +36,48 @@
                     </ul>
                 </div>
             </nav>
+            <!-- FINE NavBar a scomparsa e dropdown -->
+
         </div>
     </header>
+    <!-- FINE Header -->
 
     <main>
+
+        <!-- Sezione Jumbo -->
         <section id="jumbo" class="py-3 text-center">
             <div class="container text-white text-uppercase">
                 <div class="row justify-content-center">
-                    <div class="d-flex flex-column col-8">
+                    <div class="col-8 d-flex flex-column">
                         <div class="col-4 m-auto">
                             <img class="img-fluid mt-5 mb-3" src="./img/avatar.svg" alt="">
                         </div>
-                        <div>
-                            <h1>start bootstrap</h1>
+                        <div class="mb-3">
+                            <h1 class="display-3 fw-semibold">start bootstrap</h1>
                         </div>
-                        <div>star</div>
+                        <div class="ab-component-star mb-3">
+                            <i class="fas fa-star"></i>
+                        </div>
                         <div class="mb-4">graphic artist - web designer - illustrator</div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- FINE Sezione Jumbo -->
 
+        <!-- Sezione Portfolio -->
         <section id="portfolio" class="py-3 mt-5 mb-4">
-            <div class="container text-center text-uppercase">
-                <h2>portfolio</h2>
-                <div>star</div>
-                <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 gy-2">
+            <div class="container text-center">
+
+                <!-- Intestazione -->
+                <h2 class="display-5 fw-semibold text-uppercase mb-3">portfolio</h2>
+                <div class="ab-component-star mb-4">
+                    <i class="fas fa-star"></i>
+                </div>
+                <!-- FINE Intestazione -->
+
+                <!-- Sezione con immagini -->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-2">
                     <div class="col">
                         <div class="content rounded overflow-hidden">
                             <img src="./img/cabin.png" alt="" class="img-fluid">
@@ -89,13 +109,24 @@
                         </div>
                     </div>
                 </div>
+                <!-- FINE Sezione con immagini -->
+
             </div>
         </section>
+        <!-- FINE Sezione Portfolio -->
         
+        <!-- Sezione About -->
         <section id="about" class="pb-3 pt-5 text-white">
             <div class="container text-center">
-                <h2 class="text-uppercase">about</h2>
-                <div>star</div>
+
+                <!-- Intestazione -->
+                <h2 class="display-5 fw-semibold text-uppercase mb-3">about</h2>
+                <div class="ab-component-star mb-4">
+                    <i class="fas fa-star"></i>
+                </div>
+                <!-- FINE Intestazione -->
+
+                <!-- Colonne contenuto -->
                 <div class="row justify-content-center">
                     <div class="col-4">Freelancer is a free bootstrap theme created by 
                         Start Bootstrap. The download includes the complete source files
@@ -109,19 +140,32 @@
                         perfect starting point!
                     </div>
                 </div>
+                <!-- FINE Colonne contenuto -->
 
+                <!-- Bottone -->
                 <button type="button" class="btn btn-outline-primary btn-sm border 
                 border-white text-white m-4"><i class="fas fa-download pe-1"></i>
-                Download</button>   
+                Download</button>
+                <!-- FINE Bottone -->
+
             </div>
         </section>
+        <!-- FINE Sezione About -->
 
+        <!-- Sezione Contact Me -->
         <section id="contact" class="py-3">
             <div class="container mb-3">
-                <h2 class="text-uppercase text-center">contact me</h2>
-                <div class="text-center">stellina</div>
+
+                <!-- Intestazione -->
+                <h2 class="display-5 fw-semibold text-uppercase text-center mb-3">contact me</h2>
+                <div class="ab-component-star mb-2">
+                    <i class="fas fa-star"></i>
+                </div>
+                <!-- FINE Intestazione -->
+
+                <!-- FINE Form -->
                 <div class="d-flex justify-content-center">
-                    <form action="" class="col-8 col-lg-7 col-xl-6">
+                    <form action="" class="col-8 col-md-7 col-lg-6">
                         <div>
                             <label for="exampleFormControlInput1" class="form-label"></label>
                             <input type="email" class="form-control pt-0 pb-3 px-0 border-0 rounded-0 border-bottom" id="exampleFormControlInput1" placeholder="Name">
@@ -138,33 +182,62 @@
                             <label for="exampleFormControlTextarea1" class="form-label"></label>
                             <textarea class="form-control pt-0 pb-3 px-0 border-0 rounded-0 border-botttom" id="exampleFormControlTextarea1" rows="8" placeholder="Message"></textarea>
                         </div>
+
+                        <!-- Bottone Submit -->
                         <input type="submit" value="Send" class="btn rounded text-white">
+                        <!-- FINE Bottone Submit -->
+
                     </form>
                 </div>
+                <!-- FINE Form -->
+
             </div>
         </section>
+        <!-- FINE Sezione Contact Me -->
     </main>
 
+    <!-- Footer -->
     <footer class="text-center text-white">
-        <div class="container">
-            <div>
-                <h3>location</h3>
-                <span>2215 John Daniel Drive Clark, MO 54243</span>
+
+        <!-- Footer superiore -->
+        <div class="container-fluid d-md-flex px-5 upper-footer">
+            <div class="col col-md-3 pt-5 pb-3">
+                <span class="text-uppercase fs-5 fw-semibold">location</span>
+                <p>2215 John Daniel Drive Clark, MO 54243</p>
             </div>
 
-            <div>
-                <h3>around the web</h3>
-                
+            <div class="col col-md-6 pt-4 pb-4">
+                <span class="text-uppercase fs-5 fw-semibold">around the web</span>
+                <div class="d-flex justify-content-center">
+                    <div class="ab-component-social mx-2">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="ab-component-social mx-2">
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                    <div class="ab-component-social mx-2">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="ab-component-social mx-2">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <h3>about freelancer</h3>
-                <p>Freelancer is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap</a></p>            </div>
+            <div class="col col-md-3 pt-4 pb-3">
+                <span class="text-uppercase fs-5 fw-semibold">about freelancer</span>
+                <p class="fs-6">Freelancer is a free to use, open source Bootstrap theme created by <a href="" class="text-decoration-none">Start Bootstrap</a></p>            </div>
         </div>
-        <div class="container">
-            <p>Copyright &copy; Your Website 2019</p>
+        <!-- FINE Footer superiore -->
+
+        <!-- Footer inferiore -->
+        <div class="container-fluid lower-footer">
+            <p class="py-5">Copyright &copy; Your Website 2019</p>
         </div>
+        <!-- FINE Footer inferiore -->
+
     </footer>
+    <!-- FINE Footer -->
 
     <!-- JavaScript Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
